@@ -27,5 +27,5 @@ Conver the following features in your program:
 ```
 
 ```diff
-+ text in green
++ Output: 1 2 Linio .... 98 Linio IT
 ```
