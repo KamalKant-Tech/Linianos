@@ -15,32 +15,17 @@ Conver the following features in your program:
   - Feel free to apply your SOLID knowledge
   - You can write the challenge in any language you want. Here at Linio we are big fans of PHP, Kotlin and TypeScript
 
-### Requirements
+### Prerequisite
 
 - php-cli or wamp/lamp
 - PHP 7.1, preferred 7.1.6
-- Composer (see: https://getcomposer.org/doc/00-intro.md)
 
-### Installation
+### Usage
 
 1. Download or clone the repository
-2. Execute the composer command in project root:
-```
-    composer install
-```
-4. Run challenge php script in project root:
+2. Run challenge php script in project root:
 ```
     php index.php
-```
-
-### Unit test
-
-To run the PHPUnit tests execute the follow command in Terminal from project root:
-
-```
-    cd vendor/bin
-    phpunit ../../tests/FormAddTest
-    phpunit ../../tests/WriterTest
 ```
 
 ```diff
@@ -49,5 +34,3 @@ To run the PHPUnit tests execute the follow command in Terminal from project roo
 ! text in orange
 # text in gray
 ```
-
-Written by Junior Hernandez
