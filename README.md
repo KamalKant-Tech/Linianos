@@ -8,12 +8,11 @@ But here's the catch: you can use only one `if`. No multiple branches, ternary o
 
 Conver the following features in your program:
 
-  - 1 if
+  - Maximum of 1 if
   - You can't use `else`, `else if` or ternary
   - Unit tests
   - Feel free to apply your SOLID knowledge
-  - You can write the challenge in any language you want. Here at Linio we are big fans of PHP, Kotlin and TypeScript
-
+  
 ### Prerequisite
 
 - php-cli or xampp/lamp
@@ -24,12 +23,9 @@ Conver the following features in your program:
 1. Download or clone the repository
 2. Run challenge php script in project root:
 ```
-    php index.php
+    php Solution.php
 ```
 
 ```diff
-- text in red
 + text in green
-! text in orange
-# text in gray
 ```
