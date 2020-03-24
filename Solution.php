@@ -15,13 +15,18 @@ class Solution
     public function printNumberString()
     {
         for ($i = 1; $i <= 100; $i++) {
-            $strValue = $this->StringOptions[($i - 1) % 15];
+            $strValue = $this->printString($i);
             if (!empty($strValue)) {
                 echo $strValue . PHP_EOL;
                 continue;
             }
             echo $i . PHP_EOL;
         }
+    }
+
+    public function printString(int $n)
+    {
+        return $this->StringOptions[($n - 1) % 15] ? $this->StringOptions[($n - 1) % 15] : $n;
     }
 }
 
